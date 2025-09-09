@@ -1,0 +1,190 @@
+{
+    "quiz": {
+        "facil": [
+            {
+                "pregunta": "¿Qué palabra clave se usa para declarar una variable que puede cambiar de valor?",
+                "opciones": [
+                    "const",
+                    "let",
+                    "var",
+                    "static"
+                ],
+                "respuesta": "let"
+            },
+            {
+                "pregunta": "¿Qué devuelve 'typeof 42' en JavaScript?",
+                "opciones": [
+                    "number",
+                    "string",
+                    "object",
+                    "boolean"
+                ],
+                "respuesta": "number"
+            },
+            {
+                "pregunta": "¿Qué símbolo se usa para comentarios de una sola línea en JavaScript?",
+                "opciones": [
+                    "//",
+                    "/*",
+                    "#",
+                    "<!--"
+                ],
+                "respuesta": "//"
+            },
+            {
+                "pregunta": "¿Qué método convierte todo a string?",
+                "opciones": [
+                    "toString()",
+                    "parseInt()",
+                    "join()",
+                    "stringify()"
+                ],
+                "respuesta": "toString()"
+            },
+            {
+                "pregunta": "¿Qué valor devuelve 'Boolean(0)'?",
+                "opciones": [
+                    "true",
+                    "false",
+                    "null",
+                    "undefined"
+                ],
+                "respuesta": "false"
+            }
+        ],
+        "medio": [
+            {
+                "pregunta": "¿Cuál es la diferencia entre '==' y '===' en JavaScript?",
+                "opciones": [
+                    "Ninguna, son lo mismo",
+                    "'==' compara valor y '===' compara valor y tipo",
+                    "'===' convierte tipos automáticamente",
+                    "'==' es solo para números"
+                ],
+                "respuesta": "'==' compara valor y '===' compara valor y tipo"
+            },
+            {
+                "pregunta": "¿Cuál es el valor de 'null == undefined'?",
+                "opciones": [
+                    "true",
+                    "false",
+                    "NaN",
+                    "Error"
+                ],
+                "respuesta": "true"
+            },
+            {
+                "pregunta": "¿Qué hace el método 'Array.prototype.filter()'?",
+                "opciones": [
+                    "Devuelve un nuevo array con elementos que cumplen una condición",
+                    "Devuelve el índice de un elemento",
+                    "Ordena el array",
+                    "Elimina elementos directamente"
+                ],
+                "respuesta": "Devuelve un nuevo array con elementos que cumplen una condición"
+            },
+            {
+                "pregunta": "¿Qué es una IIFE (Immediately Invoked Function Expression)?",
+                "opciones": [
+                    "Una función declarada con async",
+                    "Una función que se ejecuta inmediatamente después de definirse",
+                    "Una función que devuelve otra función",
+                    "Una función que no puede ser llamada"
+                ],
+                "respuesta": "Una función que se ejecuta inmediatamente después de definirse"
+            },
+            {
+                "pregunta": "¿Qué devuelve '[] == ![]' en JavaScript?",
+                "opciones": [
+                    "true",
+                    "false",
+                    "undefined",
+                    "Error"
+                ],
+                "respuesta": "true"
+            }
+        ],
+        "dificil": [
+            {
+                "pregunta": "¿Cuál es el resultado de 'typeof NaN'?",
+                "opciones": [
+                    "NaN",
+                    "undefined",
+                    "number",
+                    "object"
+                ],
+                "respuesta": "number"
+            },
+            {
+                "pregunta": "En el event loop de JavaScript, ¿qué se ejecuta primero?",
+                "opciones": [
+                    "Tareas de la cola de microtareas (promesas, process.nextTick)",
+                    "Tareas de la cola de macrotareas (setTimeout, setInterval)",
+                    "Eventos del DOM",
+                    "Renderizado de la UI"
+                ],
+                "respuesta": "Tareas de la cola de microtareas (promesas, process.nextTick)"
+            },
+            {
+                "pregunta": "¿Cuál es la salida de 'console.log([] + {})'?",
+                "opciones": [
+                    "[object Object]",
+                    "{}",
+                    "[]{}",
+                    "Error"
+                ],
+                "respuesta": "[object Object]"
+            },
+            {
+                "pregunta": "¿Qué significa 'hoisting' en JavaScript?",
+                "opciones": [
+                    "Las variables y funciones son movidas al inicio de su scope antes de ejecutar el código",
+                    "Eliminar variables no usadas",
+                    "La optimización de bucles",
+                    "El proceso de asignar memoria dinámica"
+                ],
+                "respuesta": "Las variables y funciones son movidas al inicio de su scope antes de ejecutar el código"
+            },
+            {
+                "pregunta": "¿Qué pasa si declaras dos veces una variable con 'var' en el mismo scope?",
+                "opciones": [
+                    "Lanza un error de sintaxis",
+                    "Lanza un error en tiempo de ejecución",
+                    "Sobrescribe la variable anterior",
+                    "Ignora la segunda declaración"
+                ],
+                "respuesta": "Sobrescribe la variable anterior"
+            },
+            {
+                "pregunta": "¿Qué devuelve el siguiente código? `Promise.resolve(5).then(console.log);`",
+                "opciones": [
+                    "undefined",
+                    "5",
+                    "Promise",
+                    "Error"
+                ],
+                "respuesta": "5"
+            },
+            {
+                "pregunta": "¿Qué significa 'use strict' en JavaScript?",
+                "opciones": [
+                    "Obliga a usar siempre 'const' y 'let'",
+                    "Activa un modo estricto que cambia ciertas reglas y lanza más errores",
+                    "Desactiva funciones obsoletas",
+                    "Hace que el código sea más rápido"
+                ],
+                "respuesta": "Activa un modo estricto que cambia ciertas reglas y lanza más errores"
+            },
+            {
+                "pregunta": "¿Cuál es el valor de `this` dentro de una arrow function?",
+                "opciones": [
+                    "Depende de cómo se invoque",
+                    "Siempre apunta al objeto global",
+                    "Hereda el 'this' del contexto léxico donde fue definida",
+                    "Siempre es undefined"
+                ],
+                "respuesta": "Hereda el 'this' del contexto léxico donde fue definida"
+            }
+        ]
+    }
+}

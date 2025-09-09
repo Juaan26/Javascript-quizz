@@ -1,10 +1,8 @@
-import { useState } from 'react'
 import './App.css'
 import { Container, Stack, Typography } from '@mui/material'
 import { JavaScriptLogo } from './JavaScriptLogo'
+import { Start } from './Start'
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <main>
       <Container maxWidth="sm">
@@ -14,6 +12,7 @@ function App() {
             JavaScript Quizz
           </Typography>
         </Stack>
+        <Start />
       </Container>
     </main>
   )
